@@ -1,0 +1,130 @@
+[0m[1mdata.aws_availability_zones.available: Reading...[0m[0m
+[0m[1mdata.aws_ami.distro: Reading...[0m[0m
+[0m[1mmodule.aws-vpc.aws_eip.cluster-nat-eip[1]: Refreshing state... [id=eipalloc-0f885efc948f4ff43][0m
+[0m[1mmodule.aws-vpc.aws_vpc.cluster-vpc: Refreshing state... [id=vpc-0ccb9801b166359b3][0m
+[0m[1mmodule.aws-vpc.aws_eip.cluster-nat-eip[0]: Refreshing state... [id=eipalloc-0908b9abc3c5295ab][0m
+[0m[1mmodule.aws-iam.aws_iam_role.kube_control_plane: Refreshing state... [id=kubernetes-devtest-master][0m
+[0m[1mmodule.aws-iam.aws_iam_role.kube-worker: Refreshing state... [id=kubernetes-devtest-node][0m
+[0m[1mdata.aws_availability_zones.available: Read complete after 0s [id=ap-northeast-1][0m
+[0m[1mdata.aws_ami.distro: Read complete after 0s [id=ami-0884675800b432fa1][0m
+[0m[1mmodule.aws-vpc.aws_internet_gateway.cluster-vpc-internetgw: Refreshing state... [id=igw-0df013336c025f426][0m
+[0m[1mmodule.aws-vpc.aws_subnet.cluster-vpc-subnets-private[0]: Refreshing state... [id=subnet-01c331edb6f7aacf0][0m
+[0m[1mmodule.aws-vpc.aws_subnet.cluster-vpc-subnets-private[1]: Refreshing state... [id=subnet-0eba74ae0338538c1][0m
+[0m[1mmodule.aws-vpc.aws_subnet.cluster-vpc-subnets-public[0]: Refreshing state... [id=subnet-060639bcfc8e7f9da][0m
+[0m[1mmodule.aws-vpc.aws_subnet.cluster-vpc-subnets-public[1]: Refreshing state... [id=subnet-0346cf9b5ca96aec3][0m
+[0m[1mmodule.aws-vpc.aws_security_group.kubernetes: Refreshing state... [id=sg-04d99ea34422f16d3][0m
+[0m[1mmodule.aws-nlb.aws_lb_target_group.aws-nlb-api-tg: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-northeast-1:708859234972:targetgroup/kubernetes-nlb-tg-devtest/fea5b3e2d7065f0a][0m
+[0m[1mmodule.aws-vpc.aws_route_table.kubernetes-public: Refreshing state... [id=rtb-0b20e5e1354d30480][0m
+[0m[1mmodule.aws-vpc.aws_nat_gateway.cluster-nat-gateway[0]: Refreshing state... [id=nat-01a77d86d20388968][0m
+[0m[1mmodule.aws-vpc.aws_nat_gateway.cluster-nat-gateway[1]: Refreshing state... [id=nat-0dd7719f409276630][0m
+[0m[1mmodule.aws-nlb.aws_lb.aws-nlb-api: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-northeast-1:708859234972:loadbalancer/net/kubernetes-nlb-devtest/47c344903e848529][0m
+[0m[1mmodule.aws-vpc.aws_security_group_rule.allow-all-egress: Refreshing state... [id=sgrule-1480178827][0m
+[0m[1mmodule.aws-vpc.aws_security_group_rule.allow-all-ingress: Refreshing state... [id=sgrule-2379743937][0m
+[0m[1mmodule.aws-vpc.aws_security_group_rule.allow-ssh-connections: Refreshing state... [id=sgrule-2413524921][0m
+[0m[1maws_instance.bastion-server[0]: Refreshing state... [id=i-06885f83de6e69567][0m
+[0m[1mmodule.aws-vpc.aws_route_table_association.kubernetes-public[0]: Refreshing state... [id=rtbassoc-0e2b2083f8dd34a8f][0m
+[0m[1mmodule.aws-vpc.aws_route_table_association.kubernetes-public[1]: Refreshing state... [id=rtbassoc-0bd6859d07ea54397][0m
+[0m[1mmodule.aws-vpc.aws_route_table.kubernetes-private[1]: Refreshing state... [id=rtb-033edac19796626ab][0m
+[0m[1mmodule.aws-vpc.aws_route_table.kubernetes-private[0]: Refreshing state... [id=rtb-0d9f439684392d89c][0m
+[0m[1mmodule.aws-vpc.aws_route_table_association.kubernetes-private[1]: Refreshing state... [id=rtbassoc-00e54a094bd51bfea][0m
+[0m[1mmodule.aws-vpc.aws_route_table_association.kubernetes-private[0]: Refreshing state... [id=rtbassoc-03eb3fa24b528b5e7][0m
+[0m[1mmodule.aws-nlb.aws_lb_listener.aws-nlb-api-listener: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-northeast-1:708859234972:listener/net/kubernetes-nlb-devtest/47c344903e848529/a9d9ade42ac52af0][0m
+[0m[1mmodule.aws-iam.aws_iam_role_policy.kube-worker: Refreshing state... [id=kubernetes-devtest-node:kubernetes-devtest-node][0m
+[0m[1mmodule.aws-iam.aws_iam_instance_profile.kube-worker: Refreshing state... [id=kube_devtest_node_profile][0m
+[0m[1mmodule.aws-iam.aws_iam_instance_profile.kube_control_plane: Refreshing state... [id=kube_devtest_master_profile][0m
+[0m[1mmodule.aws-iam.aws_iam_role_policy.kube_control_plane: Refreshing state... [id=kubernetes-devtest-master:kubernetes-devtest-master][0m
+[0m[1maws_instance.k8s-worker[1]: Refreshing state... [id=i-0d25c420b2da2b375][0m
+[0m[1maws_instance.k8s-worker[0]: Refreshing state... [id=i-04f39bd04f2f09745][0m
+[0m[1maws_instance.k8s-worker[3]: Refreshing state... [id=i-0d2a2be32c9558598][0m
+[0m[1maws_instance.k8s-worker[2]: Refreshing state... [id=i-0526ea0b83123952b][0m
+[0m[1maws_instance.k8s-master[2]: Refreshing state... [id=i-01db0973d50578b51][0m
+[0m[1maws_instance.k8s-master[0]: Refreshing state... [id=i-0bc8248ed0b602389][0m
+[0m[1maws_instance.k8s-master[1]: Refreshing state... [id=i-09116ff97ca8b872b][0m
+[0m[1maws_lb_target_group_attachment.tg-attach_master_nodes[1]: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-northeast-1:708859234972:targetgroup/kubernetes-nlb-tg-devtest/fea5b3e2d7065f0a-2025033008331670380000000e][0m
+[0m[1maws_lb_target_group_attachment.tg-attach_master_nodes[2]: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-northeast-1:708859234972:targetgroup/kubernetes-nlb-tg-devtest/fea5b3e2d7065f0a-2025033008331624410000000c][0m
+[0m[1maws_lb_target_group_attachment.tg-attach_master_nodes[0]: Refreshing state... [id=arn:aws:elasticloadbalancing:ap-northeast-1:708859234972:targetgroup/kubernetes-nlb-tg-devtest/fea5b3e2d7065f0a-2025033008331631920000000d][0m
+[0m[1mdata.template_file.inventory: Reading...[0m[0m
+[0m[1mdata.template_file.inventory: Read complete after 0s [id=7c5bfc4ca362964b0ff1cce831bdbd7867447add78a2bd43bd9f17133b244637][0m
+[0m[1mnull_resource.inventories: Refreshing state... [id=6697553765397014349][0m
+
+[0m[1m[32mNo changes.[0m[1m Your infrastructure matches the configuration.[0m
+
+[0mTerraform has compared your real infrastructure against your configuration
+and found no differences, so no changes are needed.
+[33m╷[0m[0m
+[33m│[0m [0m[1m[33mWarning: [0m[0m[1mArgument is deprecated[0m
+[33m│[0m [0m
+[33m│[0m [0m[0m  with module.aws-vpc.aws_eip.cluster-nat-eip,
+[33m│[0m [0m  on modules/vpc/main.tf line 15, in resource "aws_eip" "cluster-nat-eip":
+[33m│[0m [0m  15:   vpc   = [4mtrue[0m[0m
+[33m│[0m [0m
+[33m│[0m [0mvpc is deprecated. Use domain instead.
+[33m│[0m [0m
+[33m│[0m [0m(and 2 more similar warnings elsewhere)
+[33m╵[0m[0m
+[0m[1m[32m
+Apply complete! Resources: 0 added, 0 changed, 0 destroyed.
+[0m[0m[1m[32m
+Outputs:
+
+[0maws_nlb_api_fqdn = "kubernetes-nlb-devtest-47c344903e848529.elb.ap-northeast-1.amazonaws.com:6443"
+bastion_ip = "18.177.137.177"
+default_tags = tomap({})
+etcd = <<EOT
+10.250.200.139
+10.250.218.210
+10.250.193.38
+EOT
+inventory = <<EOT
+[all]
+ip-10-250-200-139.ap-northeast-1.compute.internal ansible_host=10.250.200.139
+ip-10-250-218-210.ap-northeast-1.compute.internal ansible_host=10.250.218.210
+ip-10-250-193-38.ap-northeast-1.compute.internal ansible_host=10.250.193.38
+ip-10-250-196-33.ap-northeast-1.compute.internal ansible_host=10.250.196.33
+ip-10-250-208-165.ap-northeast-1.compute.internal ansible_host=10.250.208.165
+ip-10-250-207-221.ap-northeast-1.compute.internal ansible_host=10.250.207.221
+ip-10-250-213-6.ap-northeast-1.compute.internal ansible_host=10.250.213.6
+
+bastion ansible_host=18.177.137.177
+
+[bastion]
+bastion ansible_host=18.177.137.177
+
+[kube_control_plane]
+ip-10-250-200-139.ap-northeast-1.compute.internal
+ip-10-250-218-210.ap-northeast-1.compute.internal
+ip-10-250-193-38.ap-northeast-1.compute.internal
+
+[kube_node]
+ip-10-250-196-33.ap-northeast-1.compute.internal
+ip-10-250-208-165.ap-northeast-1.compute.internal
+ip-10-250-207-221.ap-northeast-1.compute.internal
+ip-10-250-213-6.ap-northeast-1.compute.internal
+
+[etcd]
+ip-10-250-200-139.ap-northeast-1.compute.internal
+ip-10-250-218-210.ap-northeast-1.compute.internal
+ip-10-250-193-38.ap-northeast-1.compute.internal
+
+[calico_rr]
+
+[k8s_cluster:children]
+kube_node
+kube_control_plane
+calico_rr
+
+[k8s_cluster:vars]
+apiserver_loadbalancer_domain_name="kubernetes-nlb-devtest-47c344903e848529.elb.ap-northeast-1.amazonaws.com"
+
+EOT
+masters = <<EOT
+10.250.200.139
+10.250.218.210
+10.250.193.38
+EOT
+workers = <<EOT
+10.250.196.33
+10.250.208.165
+10.250.207.221
+10.250.213.6
+EOT
